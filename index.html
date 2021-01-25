@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio M3 L3</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="conteiner">
+      <h1>Formulario JSON</h1>
+      <form>
+        <div class="mb-3">
+          <label for="inputName" class="form-label">Nombre</label>
+          <input type="name" class="form-control" id="inputName" aria-describedby="nameHelp" onkeyup="mayus(this)"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="inputAge" class="form-label">Edad</label>
+          <input type="number" class="form-control" id="inputAge" />
+        </div>
+        <button id="btnSubmit" type="submit" class="btn btn-primary">
+          Submit
+        </button>
+      </form>
+    </div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Scripts Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
